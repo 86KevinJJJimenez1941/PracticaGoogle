@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     align-items: center;
+    font-family: arial,sans-serif;
 }
 .container-rojo{
     height: 55px;
@@ -40,7 +41,7 @@
     display: flex;
     flex-direction: column;
 }
-.google{
+#logo{
     margin-top: 5px;
     width: 270px;
 }
@@ -65,7 +66,8 @@
     margin-left: 15px;
     margin-right: 10px;
 }
-.texarea{
+
+#input-search{
     width: 450px;
     height: 37px;
     justify-content: center;
@@ -85,6 +87,7 @@
 button{
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
+    border-radius: 5px;
     color: #3c4043;
     font-family: arial,sans-serif;
     width: 140px;
@@ -92,6 +95,14 @@ button{
     margin: 7px;
     cursor: pointer;
     font-size: 15px;
+}
+button:hover{
+    border: 1px solid gray;
+
+}
+
+.separador{
+    padding-top: 5px;
 }
 
 .ofrecido{
@@ -102,41 +113,58 @@ button{
     line-height: 28px;
 }
 
+#colom{
+    text-decoration: none;
+}
+
 .pie-pag{
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 130px;
+    height: 97px;
     background: #f2f2f2;
   }
 .colombia{
-    margin-left: 15px;
+    color: #70757a;
+    font-size: 15px;
+    margin-left: 18px;
     padding: 15px;
     display: block;
     padding: 15px;
     border-bottom: 2px solid #c1c2c5;
 }
 .links{
-    justify-content: space-evenly;
     display: block;
-    padding: 15px;
+    padding-top: 10px;
+    margin-left: 23px;
+    font-size: 15px;
 }
-.separador{
-    display: flex;
-}
+
 .urls{
+    color: #70757a;
     float: left;
-    padding: 15px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 15px;
     text-decoration: none;
 }
 
-.links-right{
-    padding: 15px;
-    margin-left: 1000px;
+.urls:hover{
+    text-decoration: underline;
 }
 
 .link{
+    color: #70757a;
     float: right;
-    padding: 15px;
+    padding-right: 30px;
     text-decoration: none;
+    font-size: 15px;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+.links-right{
+    padding-right: 10px;
 }

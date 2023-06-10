@@ -13,10 +13,10 @@
     <header>
         <div class="container-rojo">
             <div class="nav">
-                <a class="enlaces" href="">Gmail</a>
+                <a class="enlaces" href="https://mail.google.com/mail/u/0/">Gmail</a>
             </div>
             <div class="nav">
-                <a class="enlaces" href="">Imágenes</a>
+                <a class="enlaces" href="https://www.google.com.co/imghp?hl=es&ogbl">Imágenes</a>
             </div>
             <div class="imagenes">
                 <img class="img2" src="img/menu.png" alt="">
@@ -26,16 +26,16 @@
     </header>
     <main>
         <div class="body">
-            <div class="cuerpo">
-                <img class="google" src="img/goo.png" alt="">
-            </div>
-            <div class="contenedor-search">
+            <section class="cuerpo">
+                <img id="logo" src="img/goo.png" alt="">
+            </section>
+            <section class="contenedor-search">
                 <div class="search">
                     <div>
                         <img class="lupa" src="img/lup.png" alt="">
                     </div>
                     <div>
-                        <input class="texarea" type="search" name="busquedacodigo" size="4" maxlength="4">
+                        <input id="input-search" type="search" name="busquedacodigo" size="4" maxlength="4">
                     </div>
                     <div>
                         <img class="images" src="img/micro.png" alt="" srcset="">
@@ -45,13 +45,13 @@
                     </div>
 
                 </div>
-            </div>
+            </section>
             <div class="contenedor-botones">
-                <button type="submit">Buscar por Google</button>
-                <button type="submit">Voy a tener suerte</button>
+                <button id="search" type="submit">Buscar por Google</button>
+                <button id="lucky" type="submit">Voy a tener suerte</button>
             </div>
             <div class="ofrecido">
-                "Ofrecido por Google en: "<br><a href=""> Español (Latinoamérica)</a>
+                Ofrecido por Google en: <br><a id="colom" href="https://www.google.com/"> Español (Latinoamérica)</a>
             </div>
         </div>
     </main>
@@ -60,15 +60,23 @@
             <div class="colombia">Colombia</div>
             <div class="separador">
                 <div class="links">
-                    <a class="urls" href="">Sobre Google</a>
-                    <a class="urls" href="">Publicidad</a>
-                    <a class="urls" href="">Negocios</a>
-                    <a class="urls" href="">Cómo funciona la busqueda</a>
+                    <a class="urls" href="https://about.google/?utm_source=google-CO&utm_medium=referral&utm_campaign=hp-footer&fg=1">
+                        Sobre Google
+                    </a>
+                    <a class="urls" href="https://ads.google.com/intl/es_co/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">
+                        Publicidad
+                    </a>
+                    <a class="urls" href="https://smallbusiness.withgoogle.com/intl/es-419_co/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=ww-ww-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u&c=CO#!/">
+                        Negocios
+                    </a>
+                    <a class="urls" href="https://www.google.com/search/howsearchworks/?fg=1">
+                        Cómo funciona la busqueda
+                    </a>
                 </div>
                 <div class="links-right">
-                    <a class="link" href="">Privacidad</a>
-                    <a class="link" href="">Condiciones</a>
-                    <a class="link" href="">Preferencias</a>
+                    <a class="link" href="#">Preferencias</a>
+                    <a class="link" href="https://policies.google.com/terms?hl=es-CO&fg=1">Condiciones</a>
+                    <a class="link" href="https://policies.google.com/privacy?hl=es-CO&fg=1">Privacidad</a>
                 </div>
             </div>
         </div>
